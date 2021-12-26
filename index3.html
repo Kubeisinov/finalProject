@@ -1,55 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-  <style>
-    #div1{
-      background: black;
-      width: 100px;
-      height: 100px;
-    }
-  </style>
-</head>
-<body>
-  
-   <div id = "databinding">
-         
-        
-         <select onchange="changebgcolor()" v-model = "color">
-            <option>red</option>
-            <option>blue</option>
-            <option>green</option>
-         </select>
-      
-         <h3>colors Selected is : red</h3>
-         <hr/>
-      </div>
-      <div id="div1"></div>
-      <script>
-         var vm = new Vue({
-            el: '#databinding',
-            data: {
-               color : "green"
-            }
-         });
-         function changebgcolor(){
-         if(vm.color=="red"){
-         document.getElementById("div1").style.backgroundColor = "lightblue";
-         }else if (vm.color=="green") {
-
-                    document.getElementById("div1").style.backgroundColor="green";
-         }else if (vm.color=="blue") {
-                    document.getElementById("div1").style.backgroundColor="blue";
-         }
-       }
-
-      </script>
-      
-</body>
-</html> -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -128,11 +76,6 @@ html {
   color: white;
 }
 
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
 
 .fa-skype {
   background: #0d065e;

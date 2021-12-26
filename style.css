@@ -23,18 +23,11 @@ html {
   padding: 15px;
 }
 
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 .menu li {
   padding: 8px;
   margin-bottom: 7px;
   background-color:  rgb(25, 25, 112);;
   color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .menu li:hover {
@@ -47,7 +40,6 @@ html {
   color: #ffffff;
   text-align: center;
   font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .footer {
@@ -192,16 +184,7 @@ td, th {
 body {
   font-family: "Sofia", sans-serif;
 }
-* {
-  box-sizing: border-box;
-}
 
-.row::after {
-  content: "";
-  clear: both;  
-  display: block;
-
-}
 
 [class*="col-"] {
   float: left;
@@ -224,7 +207,6 @@ html {
   font-size: 40px;
   width:50px;
   text-align: center;
-  text-decoration: none;
   margin: 50px 2px;
 }
 
@@ -245,7 +227,6 @@ html {
 }
 .fa-youtube {
   background: rgb(25, 25, 112);
-
   color: white;
 }
 
@@ -253,36 +234,18 @@ html {
   background:  rgb(25, 25, 112);
   color: white;
 }
-
-.fa-pinterest {
-  background:  rgb(25, 25, 112);
-  color: white;
-}
-
-.fa-snapchat-ghost {
-  background:  rgb(25, 25, 112);
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
 .fa-skype {
   background:  rgb(25, 25, 112);
   padding-left: 6 00px ;
   color: white;
 }
 
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
 .menu li {
   padding: 8px;
   margin-bottom: 7px;
-  background-color: rgb(25, 25, 112);
+  background-color: hsl(240, 100%, 23%);
   color: white ;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .menu li:hover {
@@ -328,7 +291,6 @@ tr:nth-child(even) {
 }
 a{
   color: white;
-  text-decoration: none;
 }
 
 .footer {
